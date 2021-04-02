@@ -19,7 +19,7 @@ var passwordError;
 firebase.auth().onAuthStateChanged(user => {
     if (user) {
         console.log("User: " + user.email);
-        $("#redirectToMain").click();
+        console.log("!!!Going to main blog!!!");
     }
 
 });
